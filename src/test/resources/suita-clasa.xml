@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Prima suita clasa TestNG" verbose="1">
+    <test name="Primul test din TESTNG .xml file">
+        <classes>
+            <class name="com.first.pachet.SeleniumAnnotations">
+            </class>
+        </classes>
+    </test>
+    <test name="Al doilea test din TESTNG .xml file">
+        <classes>
+            <class name="SeleniumTests"/>
+        </classes>
+    </test>
+</suite>

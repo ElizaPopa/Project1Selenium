@@ -1,3 +1,6 @@
-MainSe.class
-JavaErrors.class
 MyCustomException.class
+WebdriverManager.class
+JavaErrors.class
+com/first/pachet/SeleniumAnnotations.class
+MainSe.class
+SeleniumTests.class

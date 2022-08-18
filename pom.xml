@@ -23,6 +23,27 @@
         <artifactId>webdrivermanager</artifactId>
         <version>5.2.2</version>
     </dependency>
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.6.1</version>
+        <scope>test</scope>
+    </dependency>
 </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M7</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/suita-clasa.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <reportsDirectory>plugin-output</reportsDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
